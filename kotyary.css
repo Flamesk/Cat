@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.back{
+    width: 210px;
+    display: flex;
+    margin:0px;
+    
+    
+}
+.backq{
+    background-color: #D9D9D9;
+    
+    display: flex;
+    width: 1100px;
+    height: 1080px;
+    position: relative;
+}
+.a1{
+    width: 249px;
+    height: 230px;
+    background-color:#8085F5 ;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 60px;
+    margin-top: 32px;
+}
+.img1{
+    border-radius: 25px;
+}
+.aboba{
+    display: flex;
+    margin-left: 37px;
+    margin-top: 76.06px;
+    color: #29096F;
+    letter-spacing: 20%;
+    font-size: 65px;
+    transform:  skewY(4deg);
+    Font-family: "Helvetica Neue", Arial, sans-serif;
+    letter-spacing: 10px;
+    height: 50px;
+    margin-bottom: 0px;
+    
+    position: relative;
+}
+.all{
+    display: flex;
+    background-size: cover;
+}
+
+.menu{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    position: absolute;
+    width: 778px;
+    height: 523px;
+    background-color: #D9D9D9;
+    place-items: center;
+    margin-top:342px ;
+    margin-left:60px ;
+}
+.text{
+    text-align: center;
+    color: #b21659;
+    font-size: 40px;
+    cursor: pointer;
+    
+    
+}
+.evil{
+    display: inline;
+    background: #D9D9D9;
+    /*border: 3px solid rgb(93, 179, 230);*/
+    border: 3px solid rgb(216, 20, 6);
+    padding: 0 20px;
+    cursor: pointer;
+    
+}
+.evil:hover {
+    background: #333;
+    color: #fafafa;
+    border-radius: 40px;
+    border-color:#333 ;
+
+}
+.ogo:empty::after{
+    content: attr(title) ;
+}
+.joj {text-decoration: none;
+    color: inherit !important;}
+    .sad:empty::after{
+        content: attr(title) ;
+    }
+    .ogogo:empty::after{
+        content: attr(title) ;
+    }
+    .funny:empty::after{
+        content: attr(title) ;
+    }
+    .nyam:empty::after{
+        content: attr(title) ;
+    }
+    .gav:empty::after{
+        content: attr(title) ;
+    }
+    .line{
+        display: flex;
+        position: absolute;
+        width: 800px;
+        height: 5x;
+        background-color: #b21659;
+        margin: 1000px;
+        margin-left: 250px;
+    }
+    .lapy{
+        display: block;
+        position: absolute;
+        
+        z-index: 5;
+        margin-top: 890px;
+        margin-left: 850px;
+        transform: rotate(325deg);
+    }
+    body {
+        display: flex;
+        justify-content: center;
+         align-items: center;
+        box-sizing: border-box;
+        margin: 0px;
+      }
+    
